@@ -10,9 +10,22 @@ const handleGenerateNewShortURL = async (req, res) => {
     redirectURL: body.url,
     visitHistory: [],
   });
+  return res.render("home", {
+    id: shortID,
+  });
   return res.json({ id: shortID });
+};
+
+const handleGetAnalytics = async (req, res) => {
+  const shortId = req.params.shortId;
+  const result = await URL.findOne({ shortId });
+  return res.json({
+    totalClicks: result.visitHistory?.length || 0,
+    analytics: result.visitHistory,
+  });
 };
 
 module.exports = {
   handleGenerateNewShortURL,
+  handleGetAnalytics,
 };

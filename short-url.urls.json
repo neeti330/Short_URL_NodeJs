@@ -1,0 +1,149 @@
+[
+  {
+    "_id": {
+      "$oid": "65cf6716dec6b01f72db9693"
+    },
+    "shortId": "Tha9u12Ll",
+    "redirectURL": "https://www.youtube.com/",
+    "visitHistory": [
+      {
+        "timestamp": {
+          "$numberLong": "1708092061083"
+        },
+        "_id": {
+          "$oid": "65cf6a9d3bb53525d3e11dec"
+        }
+      },
+      {
+        "timestamp": {
+          "$numberLong": "1708092108297"
+        },
+        "_id": {
+          "$oid": "65cf6acc3bb53525d3e11dee"
+        }
+      },
+      {
+        "timestamp": {
+          "$numberLong": "1708092139851"
+        },
+        "_id": {
+          "$oid": "65cf6aeb3bb53525d3e11df1"
+        }
+      },
+      {
+        "timestamp": {
+          "$numberLong": "1708093591776"
+        },
+        "_id": {
+          "$oid": "65cf7097c9d6065e67d6a5a8"
+        }
+      },
+      {
+        "timestamp": {
+          "$numberLong": "1708178455621"
+        },
+        "_id": {
+          "$oid": "65d0bc175e5a887602375206"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-02-16T13:45:58.216Z"
+    },
+    "updatedAt": {
+      "$date": "2024-02-17T14:00:55.624Z"
+    },
+    "__v": 0
+  },
+
+  {
+    "_id": {
+      "$oid": "65cf6b273bb53525d3e11df5"
+    },
+    "shortId": "eAxZ3jcNy",
+    "redirectURL": "https://www.google.co.in/",
+    "visitHistory": [
+      {
+        "timestamp": {
+          "$numberLong": "1708092238066"
+        },
+        "_id": {
+          "$oid": "65cf6b4e3bb53525d3e11df7"
+        }
+      },
+      {
+        "timestamp": {
+          "$numberLong": "1708093039021"
+        },
+        "_id": {
+          "$oid": "65cf6e6fd50c361d7481c093"
+        }
+      },
+      {
+        "timestamp": {
+          "$numberLong": "1708173939967"
+        },
+        "_id": {
+          "$oid": "65d0aa73112a782da789915c"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-02-16T14:03:19.524Z"
+    },
+    "updatedAt": {
+      "$date": "2024-02-17T12:45:39.974Z"
+    },
+    "__v": 0
+  },
+
+  {
+    "_id": {
+      "$oid": "65cf6d449b6eb5357420a230"
+    },
+    "shortId": "0LD0Sc7T-",
+    "redirectURL": "https://chat.openai.com/",
+    "visitHistory": [
+      {
+        "timestamp": {
+          "$numberLong": "1708179065876"
+        },
+        "_id": {
+          "$oid": "65d0be795e5a887602375395"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-02-16T14:12:20.821Z"
+    },
+    "updatedAt": {
+      "$date": "2024-02-17T14:11:05.877Z"
+    },
+    "__v": 0
+  },
+
+  {
+    "_id": {
+      "$oid": "65d0be955e5a8876023753a1"
+    },
+    "shortId": "mPaqozp7R",
+    "redirectURL": "https://stackoverflow.com/",
+    "visitHistory": [
+      {
+        "timestamp": {
+          "$numberLong": "1708179109325"
+        },
+        "_id": {
+          "$oid": "65d0bea55e5a8876023753a3"
+        }
+      }
+    ],
+    "createdAt": {
+      "$date": "2024-02-17T14:11:33.192Z"
+    },
+    "updatedAt": {
+      "$date": "2024-02-17T14:11:49.326Z"
+    },
+    "__v": 0
+  }
+]
