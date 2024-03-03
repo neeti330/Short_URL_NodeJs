@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        font-family: "Times New Roman", Times, serif;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .input-wrap {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+      }
+
+      label {
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: rgb(82, 71, 71);
+      }
+
+      input {
+        margin-bottom: 15px;
+        padding: 10px;
+        font-weight: 600;
+        width: 100%;
+      }
+
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+  </head>
+  <body>
+    <h1>Signup</h1>
+    <form action="/user" method="POST">
+      <div class="input-wrap">
+        <label>Full Name</label>
+        <input type="text" name="name" required />
+        <label>Email</label>
+        <input type="email" name="email" required />
+        <label>Password</label>
+        <input type="text" name="password" required />
+        <button type="submit">Signup</button>
+      </div>
+    </form>
+  </body>
+</html>
